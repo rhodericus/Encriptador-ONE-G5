@@ -1,0 +1,239 @@
+body{
+    background-color: #f1f1f1;
+}
+
+
+.logo{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    width: 10%;
+   
+}
+
+.titulo{
+    width: 20%;
+    font-size: 18px;
+    margin-left: 130px;
+    color:#0A3871;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* section{
+    width: 40%;
+    height: 100%;
+} */
+
+.section1{
+    color: #a19090;
+    width: 100%;
+    height: 70%;
+    margin-right: 174px;
+}
+
+
+
+
+ 
+.section2{
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+       
+}
+
+
+.text-area{
+    background-color: #9f9b9b;
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    font-weight: bold;
+    color:#0A3871;
+   /* text-transform: lowercase; */
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+}
+
+
+::placeholder{
+    color: #0A3871;
+}
+
+.mensaje{
+    text-align: center;
+    background: #f3f5fc;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin: top 98px;
+    margin-left: 20px;
+    padding-left: 20px;
+    display: flexbox;
+    font-size: 16px;
+}
+
+.text-area focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+
+.botonEnc{
+    font-size: 20px;
+    width: 328px;
+    height: 40px;
+    margin-left: 160px;
+    background: #0A3871;
+    border: 1px solid #0a3871;
+    border-radius: 16px;
+    color: white;
+    cursor:pointer;
+}
+
+
+.boton2{
+    font-size: 20px;
+    width: 328px;
+    height: 40px;
+    margin-left: 20px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 16px;
+    color: #0A3871;
+    cursor:pointer;
+    position: absolute;
+    margin-top: 1px;
+    
+}
+
+
+.muneco{
+    background: #a19090;
+    margin-bottom: 2px;
+    width: 75%;
+    height: 50%;
+    padding-top:2px;
+    padding-bottom: 2px;
+    margin-right: 155px;
+    border-radius: 7px;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.areaCopiar{
+    width: 50%;
+    height: 70%;
+    text-align: center;
+
+}
+
+.boton3{
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+    width: 328px;
+    height: 40px;
+    margin-left: 8px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 16px;
+    color: #0A3871;
+    cursor:pointer;
+    position:relative;
+    margin-top: 190px;
+    box-sizing: border-box;
+}
+
+
+
+.texto-informativo{
+    font-size: 18px;
+    color: rgb(15, 5, 150);
+    margin-left: 160px;
+    padding-bottom: 3px; 
+}
+
+
+.texto-creado p{
+    text-align: center;
+}
+.texto-creado{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 200%;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-left:0px;
+    text-align: justify;
+   
+    
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    /* background: url(imagenes/LogoONEG5.png); */
+    height: 54px;
+    width: 180px;
+    margin-top: 75px;
+    margin-left: 630px;
+    padding-left: 40px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.gh{
+    width: 60%;
+    height: 60%;
+    padding-top: 7px;
+    margin-top: 7px;
+}
+
+.copyright{
+    background: none;
+    text-align: center;
+    color: #080000;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 145px;
+    padding-top: 16px;
+}
+
+.ocultar{
+    display: none;
+}
+
+@media screen and (max-width:480px){
+   
+    .section1, .section2 {
+        width: auto;
+    }
+    .muneco, .frame{
+        width: 50%;
+    }
+   
+}
