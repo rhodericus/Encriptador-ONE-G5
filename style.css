@@ -34,7 +34,7 @@ main{
 } */
 
 .section1{
-    color: #a19090;
+    color: #c9c0c0;
     width: 100%;
     height: 70%;
     margin-right: 174px;
@@ -53,7 +53,7 @@ main{
 
 
 .text-area{
-    background-color: #9f9b9b;
+    background-color: #ffffff;
     width: 80%;
     height: 70%;
     display: block;
@@ -129,7 +129,7 @@ main{
 
 
 .muneco{
-    background: #a19090;
+    background: #f0ecec;
     margin-bottom: 2px;
     width: 75%;
     height: 50%;
@@ -180,6 +180,7 @@ main{
 .texto-creado p{
     text-align: center;
 }
+
 .texto-creado{
     background-color: #f1f1f1;
     width: 100%;
@@ -188,12 +189,12 @@ main{
     box-sizing: border-box;
     margin-left:0px;
     text-align: justify;
-   
     
 }
 
 footer{
     width: 100%;
+    height: 70%;
     text-align: center;
     background: url(imagenes/LogoONEG5.png);
     height: 54px;
