@@ -1,7 +1,16 @@
-body{
-    background-color: #f1f1f1;
-}
+/*
 
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap);
+
+*{
+    background:#F3F5FC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
 
 .logo{
     margin-top: 5px;
@@ -9,7 +18,7 @@ body{
     padding-bottom: 5px;
     margin-left: 20px;
     width: 10%;
-   
+
 }
 
 .titulo{
@@ -40,17 +49,14 @@ main{
     margin-right: 174px;
 }
 
-
-
-
- 
 .section2{
     background-color: #ffffff;
     border-radius: 20px;
-    
-       
 }
-
+#resultado{
+    height: 490px;
+    width: 400px;
+}
 
 .text-area{
     background-color: #ffffff;
@@ -76,20 +82,22 @@ main{
 }
 
 .mensaje{
-    text-align: center;
-    background: #f3f5fc;
+    height: 630px;
+    background: white;
+    background-image: url("/Imagenes/.png");
     background-repeat: no-repeat;
+    background-position: center;
     border: none;
     border-radius: 24px;
-    color:#0A3871;
-    margin: top 98px;
-    margin-left: 20px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
     padding-left: 20px;
-    display: flexbox;
-    font-size: 16px;
+    position: fixed;
 }
 
 .text-area focus{
+    
     outline: none;
 }
 
@@ -101,33 +109,29 @@ main{
 
 .botonEnc{
     font-size: 20px;
-    width: 328px;
-    height: 40px;
-    margin-left: 160px;
-    background: #0A3871;
-    border: 1px solid #0a3871;
-    border-radius: 16px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
     color: white;
-    cursor:pointer;
-}
-
-
-.boton2{
-    font-size: 20px;
+    cursor: pointer;
+    height: 67px;
     width: 328px;
-    height: 40px;
-    margin-left: 20px;
-    background: #d8dfe8;
-    border: 1px solid #0a3871;
-    border-radius: 16px;
-    color: #0A3871;
-    cursor:pointer;
-    position: absolute;
-    margin-top: 1px;
-    
 }
 
 
+.botonDesnc{  /* antes boton2 */
+    font-size: 20px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;    
+}
+
+/* Esto va dentro de mensaje y no se usara con su propio selector de clase Pasa a .mensaje
 .muneco{
     background: #f0ecec;
     margin-bottom: 2px;
@@ -140,31 +144,40 @@ main{
     display: flex;
     box-sizing: border-box;
     overflow: hidden;
-    
 }
+*/
 
-.areaCopiar{
-    width: 50%;
-    height: 70%;
+
+.texto-creado{    /*areaCopiar*/
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-left:0px;
+    text-align: justify;
     text-align: center;
-
 }
 
-.boton3{
-    width: 50%;
-    height: 50%;
-    font-size: 20px;
 
-    margin-left: 8px;
-    background: #d8dfe8;
+#btnCopiar{
+    width: 328px;
+    height: 40px;
+
+}
+.boton3{     /* antes Boton Copiar */
+    font-size: 20px;
+    width: 328px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 160px;
+    background: #0A3871;
     border: 1px solid #0a3871;
     border-radius: 16px;
-    color: #0A3871;
+    color: white;
     cursor:pointer;
-    position:relative;
-    margin-top: 190px;
-    box-sizing: border-box;
 }
+
 
 
 
@@ -180,7 +193,7 @@ main{
     text-align: center;
 }
 
-.texto-creado{
+/*.texto-creado{
     background-color: #f1f1f1;
     width: 100%;
     height: 200%;
@@ -190,6 +203,7 @@ main{
     text-align: justify;
     
 }
+*/
 
 footer{
     width: 100%;

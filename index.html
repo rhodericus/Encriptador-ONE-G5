@@ -4,37 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styleB.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
-    <title>encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
 </head>
 <body>
     <header>
-        <img id="logo" src="Frame 6.png">
-        <p class="titulo">ENCRIPTADOR DE TEXTO</p>
+        <img class="logo" src="Imagenes/Frame 6.png" alt="logo de alura" >
+        <img class="LogoONEG5" src="Imagenes/LogoONEG5.png" alt="Logo Rhodericus">
+        <a href="https://github.com/rhodericus" title="github Rhodericus">
+        <img  class="gh" src="Imagenes/gh.png" alt="github">
+        </a>
     </header>
     <main>
-        <section id="entrada" class="section1">
-            <textarea class="text-area" id="texto-ingresado" placeholder="Ingrese texto a cifrar aquí..." 
-            autofocus="" cols="30" rows="15" required spellcheck="false"></textarea>
-            <p class="texto-informativo"> 🛈 Sólo letras minúsculas y sin acentos.</p>
-            <div class="frame">
-                <button id="btn-encriptar" class="botonEnc" type="button">Encriptar</button>
-                <button id="btn-desencriptar" class="boton2" type="button">Desencriptar</button>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
             </div>
-        </section class="section2">
-        <section id="resultado">
-            <div class="muneco" id="muneco">
-                <img src="muneco.png" alt="muñeco Alura">
-            </div>              
-            <div  class="mensaje" id="texto-resultado">
-            <p class="texto-creado" id="texto-modificado"></p>
-            <p class="texto-creado" id="mensaje">No se encontró texto.</p>
-           </div>
-           <div class="areaCopiar">
-           <button id="btn-copiar" class="boton3" type="button">Copiar</button>
-           </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
         </section>
     </main>
     <footer>
@@ -44,5 +43,5 @@
                 </footer>
 
 <script src="logicaB.js"></script>
-
 </body>
+</html>
